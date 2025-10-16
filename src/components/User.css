@@ -1,0 +1,21 @@
+.user {
+    text-align: center;
+}
+.user_avatar { 
+  width: 100%;
+  max-width: 300px; /* ou la largeur maximale souhaitée */
+  aspect-ratio: 1 / 1; /* garantit un ratio carré, supporté par la plupart des navigateurs modernes */
+  border-radius: 50%;
+  object-fit: cover; /* pour que l’image remplisse bien le cercle sans déformation */
+}
+.user_infos{
+    text-align: left;
+    padding:var(--spacing-3) 0 var(--spacing-1) 0;
+}
+.user_info {
+    display: flex;
+}
+.user_info svg {
+    color:varr(--icon-color);
+    margin-right: 1rem;
+}
