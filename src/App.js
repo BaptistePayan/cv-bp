@@ -1,16 +1,23 @@
 import './App.css';
 import User from './components/User';
 import Skills from './components/Skills';
+import Profil from './components/Profil';
+import FormationsExperiences from './components/FormationsExperiences';
+import DarkMode from './components/DarkMode';
 
 function App() {
   return (
     <div className="App">
-      <div className="gird_container">
+      <div className="grid_container">
         <div className="sidebar">
+          <DarkMode />
           <User />
           <Skills />
         </div>
-        <div className="main">main</div>
+        <div className="main">
+          <Profil />
+          <FormationsExperiences />
+        </div>
      </div>
      </div>
   )

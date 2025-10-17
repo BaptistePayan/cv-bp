@@ -1,6 +1,7 @@
 import React from 'react';
 import './Skills.css';
 import Skill from './Skill';
+import Interests from './interests';
 
 function Skills() {
   return (
@@ -22,7 +23,7 @@ function Skills() {
         <Skill title="Français" rating="5" />
         <Skill title="Anglais" rating="3" />
     </div>
-    interests
+    <Interests />
     </>
   )
 }
