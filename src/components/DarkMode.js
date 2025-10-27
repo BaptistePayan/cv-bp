@@ -1,7 +1,7 @@
 import React from "react"
 import { useState } from "react"
-import WbSunnyOutlinedIcon from "@material-ui/icons/WbSunnyOutlined"
-import Brightness2OutlinedIcon from "@material-ui/icons/Brightness2Outlined"
+import SunnyIcon from '@mui/icons-material/Sunny';
+import Brightness2Icon from '@mui/icons-material/Brightness2';
 
 const DarkMode = () => {
   const [themeMode, setThemeMode] = useState("light")
@@ -43,9 +43,9 @@ const DarkMode = () => {
       onClick={e => switchTheme(e)}
     >
       {themeMode === "light" || theme === "light" ? (
-        <Brightness2OutlinedIcon />
+        <Brightness2Icon />
       ) : (
-        <WbSunnyOutlinedIcon />
+        <SunnyIcon />
       )}
     </button>
   )
