@@ -8,7 +8,6 @@ function interets() {
           <li>Voyages</li>
           <li>Astronomie</li>
           <li>Jeux vidéo</li>
-          <li>Musique</li>
         </ul>
     </div>
   )

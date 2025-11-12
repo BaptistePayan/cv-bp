@@ -11,11 +11,9 @@ function Skills() {
         <Skill title="HTML" rating="4" />
         <Skill title="CSS" rating="4" />
         <Skill title="SQL" rating="3" />
-        <Skill title="JavaScript" rating="3" />
+        <Skill title="JS" rating="3" />
         <Skill title="React" rating="3" />
-        <Skill title="Node.js" rating="2" />
-        <Skill title="Vue.js" rating="2" />
-        <Skill title="PHP" rating="2" />
+        
 
     </div>
     <div className='skills'>

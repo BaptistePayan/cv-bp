@@ -2,7 +2,7 @@ const dataFormations = [
   {
     id: 1,
     title: "Formation Développeur Web",
-    date: "12/03/2004 - 05/07/2012",
+    date: "12/09/2024 - 01/10/2025",
     location: "Montpellier",
   },
   {
@@ -14,7 +14,7 @@ const dataFormations = [
   {
     id: 3,
     title: "Baccalauréat commerce",
-    date: "09/2015 - 16/11/2018",
+    date: "01/09/2015 - 16/11/2018",
     location: "Lycée Sainte Marie, Joinville le Pont",
   },
 ]
